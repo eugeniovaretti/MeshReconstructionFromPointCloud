@@ -28,7 +28,7 @@ In the latter case you have to register your ssh keys on a github account.
 
 ## How to build `Open3D`
 
-**Prerequisites**: to build `Open3D` please refer to ([Open3D guide]http://www.open3d.org/docs/release/compilation.html) to check system requirements. 
+**Prerequisites**: To build `Open3D`, please refer to the [Open3D compilation guide](http://www.open3d.org/docs/release/compilation.html) to check system requirements.
 
 Below you can find an extract of this guide for Ubuntu (it may not work for all machines!).  
 
