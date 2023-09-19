@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesh Reconstruction From Point Cloud</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0;
+            padding: 0;
+            font-size: x-large;
+        }
+        header {
+            background-color: #605f5e;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+        main p {
+            flex: 1;
+        }
+        .image {
+            flex: 1;
+            text-align: right;
+        }
+        .download-button {
+            display: inline-block;
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mesh Reconstruction From Point Cloud</h1>
+    </header>
+    <main>
+	<div style="text-align: center;">
+		<h2 style="text-align: left;"> Introduction </h2>
+    		<p style="text-align: justify;">
+			Surface reconstruction from point cloud consists in a collection of algorithms that allow to obtain a continuous surface starting from a discrete set of points.  When the point cloud given as input is regular and smooth, most of the methods work well and produce an accurate reconstruction of the mesh at issue. 
+            <br>
+            However, in practical applications the point cloud is usually obtained from scanning and this procedure causes the appearance of imperfections; in this cases, the geometry becomes really complex and many existing algorithms may fail in these critical points. 
+            <b>The aim of this work</b> is to develop a robust method for reconstructing meshes starting from a point cloud, even in conditions characterized by complex geometries.    		
+		</p>
+    		<div style="margin-top: 20px, text-align: center;">
+        		<a href="Report/Piazza_Valentini_Varetti_MeshReconstructionFromPointCloud_2023.pdf" class="download-button">Download Report PDF</a>
+        		<a href="https://github.com/SimonePiazza99/MeshReconstructionFromPointCloud" class="download-button">Reproduce Results </a>
+
+    		</div>
+	</div>
+        <div class="image fit">
+            <img src="output/bunny_site.gif" alt="" width="600" height="500">
+        </div>
+    </main>
+</body>
+</html>
