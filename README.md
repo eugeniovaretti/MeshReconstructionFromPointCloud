@@ -88,6 +88,7 @@ The repository is structured as follow:
 - `Open3D` : contains the submodule that performs the mesh reconstructon.  
 - `data` : contains all the input data.  
 - `output` : contains simulation useful for presentation/report.
+- `dcode`: contains code written during development.
 
 In the repo lot of scripts are at disposal. Worth to notice is `test_o3d.ipynb` that allows a fast analysis of results.
 
