@@ -1,5 +1,4 @@
-# Project3-Mesh_Surface
-
+# Mesh reconstruction from point cloud
 This repository contains the final project of Computing Tools for Scientific Programming course a.y 2022/2023 for the MSc. Mathematical Engineering, Politecnico di Milano.  
 
 # Installation
